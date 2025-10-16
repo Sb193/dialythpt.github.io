@@ -54,7 +54,7 @@
     map.doubleClickZoom.disable();
 
     // Tải GeoJSON Việt Nam
-    fetch('vn_geo.json')
+    fetch('vn_geo_min.json')
       .then(res => res.json())
       .then(geo => {
         const baseStyle = {
